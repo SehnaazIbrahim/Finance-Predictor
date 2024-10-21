@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "paths":{
+      "@/*":["./src/*"],
+    },
+    "baseUrl": "src", // Set this to the base folder for your app
+    "types":["vite/client"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
+
